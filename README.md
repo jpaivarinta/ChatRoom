@@ -1,2 +1,2 @@
 # ChatRoom
-repository for Distributed systems -project
+ Distributed systems -project
