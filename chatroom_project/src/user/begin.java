@@ -18,7 +18,7 @@ class subscribe extends  JFrame implements ActionListener{
         jt1.setText("welcome to chatroom_1" +"\r\n"+
                 "Ip is localhost");
         jt2.setText("welcome to chatroom_2" +"\r\n"+
-                "Ip is 88888888");
+                "Ip is 192.168.103.12");
         jb1.addActionListener(this);
         jb2.addActionListener(this);
         jp1.add(jt1);

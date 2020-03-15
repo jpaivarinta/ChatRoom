@@ -1,7 +1,7 @@
 package user;
 
 import client.Socket_one;
-import server.Server;
+import server.Server_test;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -12,7 +12,6 @@ import javax.swing.event.ListSelectionListener;
 import java.io.*;
 import java.sql.Timestamp;
 import java.util.Date;
-import java.util.ArrayList;
 import java.util.List;
 
 public class G_Menu extends JFrame implements ActionListener {
@@ -63,7 +62,7 @@ public class G_Menu extends JFrame implements ActionListener {
             @Override
             public void valueChanged(ListSelectionEvent e) {
                 int row = lst1.getSelectedIndex();
-                User cha = Server.list1.get(row);
+                User cha = Server_test.list1.get(row);
                 name2 = cha.getName();
             }
         }));
